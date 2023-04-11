@@ -37,7 +37,7 @@ public class Road : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameManager GM = new GameManager();
+        GameManager GM = FindObjectOfType<GameManager>();
         if (GM.InputDetected())
         {
             for(int i = 0; i < 20; i++)

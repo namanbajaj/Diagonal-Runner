@@ -80,6 +80,11 @@ public class CharacterController : MonoBehaviour
             GameObject g = Instantiate(crystalEffect, transform.position, Quaternion.identity);
             Destroy(g, 2);
             anim.speed += GM.Score / 25f;
+
+            if(PlayerPrefs.GetInt("Vibrate") == 1)
+            {
+                Handheld.Vibrate();
+            }
         }
     }
 }

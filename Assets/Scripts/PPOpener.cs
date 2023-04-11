@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
-public class PlayAgainPopup : MonoBehaviour
+public class PPOpener : MonoBehaviour
 {
-    public Button PlayAgainButton;
+    public Button PP;
 
     // Start is called before the first frame update
     void Start()
@@ -18,5 +17,10 @@ public class PlayAgainPopup : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void OnClick()
+    {
+        Application.OpenURL("https://sites.google.com/view/mini-tennis-policy-privacy/home");
     }
 }
