@@ -157,6 +157,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.NBaj.DiagonalRunner
     Standalone: com.DefaultCompany.Diagonal-Runner
+    iPhone: com.NBaj.Diagonal-Runner
   buildNumber:
     Standalone: 0
     iPhone: 0
